@@ -23,9 +23,9 @@ const Navigation: React.FC = () => {
         <div className="flex items-center gap-2">
           <Link to="/dashboard" className="flex items-center gap-2">
             <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center">
-              <span className="text-xl font-bold">P</span>
+              <span className="text-xl font-bold">F</span>
             </div>
-            <h1 className="text-2xl font-bold text-primary">Pulse</h1>
+            <h1 className="text-2xl font-bold text-primary">FriendNest</h1>
           </Link>
         </div>
 

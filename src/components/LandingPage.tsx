@@ -15,9 +15,9 @@ const LandingPage: React.FC = () => {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center">
-              <span className="text-xl font-bold">P</span>
+              <span className="text-xl font-bold">F</span>
             </div>
-            <h1 className="text-2xl font-bold text-primary">Pulse</h1>
+            <h1 className="text-2xl font-bold text-primary">FriendNest</h1>
           </div>
           <div className="flex items-center space-x-2">
             <ThemeToggle />
@@ -40,7 +40,7 @@ const LandingPage: React.FC = () => {
             Connect, Share, and Engage in Real-Time
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Join Pulse and connect with friends, share your moments, and stay updated with what matters most to you.
+            Join FriendNest and connect with friends, share your moments, and stay updated with what matters most to you.
             Experience real-time interactions in a beautiful, user-friendly environment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -53,7 +53,7 @@ const LandingPage: React.FC = () => {
           </div>
 
           <div className="mt-12">
-            <h3 className="font-semibold text-xl mb-4">Why choose Pulse?</h3>
+            <h3 className="font-semibold text-xl mb-4">Why choose FriendNest?</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex items-start space-x-3">
                 <div className="rounded-full bg-primary/20 p-2">
@@ -116,9 +116,9 @@ const LandingPage: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
               <div className="bg-primary text-primary-foreground rounded-full w-8 h-8 flex items-center justify-center">
-                <span className="text-xl font-bold">P</span>
+                <span className="text-xl font-bold">F</span>
               </div>
-              <span className="text-xl font-bold text-primary">Pulse</span>
+              <span className="text-xl font-bold text-primary">FriendNest</span>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-muted-foreground hover:text-primary">About</a>
@@ -128,7 +128,7 @@ const LandingPage: React.FC = () => {
             </div>
           </div>
           <div className="mt-8 text-center text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} Pulse Social. All rights reserved.
+            &copy; {new Date().getFullYear()} FriendNest Social. All rights reserved.
           </div>
         </div>
       </footer>
